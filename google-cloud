@@ -1,0 +1,7 @@
+[us_east_vault]
+1.1.1.1 ansible_user=damoon
+1.1.1.1 ansible_user=damoon
+1.1.1.1 ansible_user=damoon
+
+[vault:children]
+us_east_vault
