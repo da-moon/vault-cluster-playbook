@@ -1,6 +1,6 @@
 ---
 - block :
-  - name: "upload bifrost ufw config file"
+  - name: "upload vault ufw config file"
     template:                                                                                                               
       src: "ufw/vault.j2"                          
       dest: "/etc/ufw/applications.d/vault"                                                                      
